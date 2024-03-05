@@ -1,9 +1,32 @@
-
+import StockTape from "./Components/ticker-tape";
+import "./App.css"
 function App() {
-  return(
+  return (
+    // main page div
     <div>
-      {/* <Alert text="Welcome to Stock simulator"/> */}
+      <div>
+        <div>
+            <StockTape />
+        </div>
+        {/* stock graph */}
+        <div>
+            
+        </div>
+        {/* login button */}
+        <div>
+
+        </div>
+        {/* buy sell buttons */}
+        <div>
+
+        </div>
+        {/* list of stocks owned */}
+        <div>
+
+        </div>
+      </div>
     </div>
+    
   );
 }
 
