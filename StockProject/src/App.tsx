@@ -1,6 +1,7 @@
 import StockTape from "./Components/ticker-tape";
 import { LoginButton, SignUp } from "./Components/LoginButton";
 import "./App.css"
+import { Card } from "./Components/Card";
 function App() {
   return (
     // main page div
@@ -18,7 +19,7 @@ function App() {
         </div>
         {/* Stock Graph */}
         <div>
-
+            <Card/>
         </div>
         {/* buy sell buttons */}
         <div>
