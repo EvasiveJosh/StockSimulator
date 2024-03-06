@@ -6,7 +6,7 @@ function App() {
   return (
     // main page div
     <div>
-      <div>
+      <div className="flexBox">
         <div>
             <StockTape />
         </div>
