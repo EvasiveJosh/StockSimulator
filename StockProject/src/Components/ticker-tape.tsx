@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const StockTape = () => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const StockTape = () => {
         { proName: 'NASDAQ:META', title: 'Meta' }
       ],
       showSymbolLogo: true,
-      isTransparent: false,
+      isTransparent: true,
       displayMode: 'adaptive',
       colorTheme: 'light',
       locale: 'en'

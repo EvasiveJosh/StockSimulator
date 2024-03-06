@@ -1,9 +1,10 @@
 import "../App.css"
-
+import "./Graph.tsx"
+import Graph from "./Graph.tsx"
 export const Card = () =>{
     return(
         <div className="card">
-            <h1>Test Text</h1>
+            <Graph/>
         </div>
     )
 }
