@@ -21,6 +21,6 @@
     max-height: auto;
 }
 .flexBox{
-    background-color: hsla(0, 49%, 38%, 0.664);
+    background-color: hsla(241, 36%, 48%, 0.664);
     flex-direction: row;
 }
