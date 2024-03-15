@@ -21,7 +21,7 @@ function App() {
         </div>
 
         <div className="graph">
-        <Card/>
+          <Card/>
         </div>
 
         <div className="actionButtons">
