@@ -1,16 +1,23 @@
-.stockTape{
-    pointer-events: none;
+.flexBox {
+    display: flex
+    flex-direction column;
+    padding: 6rem;
 }
-.header{
-    padding-top: 15px;
-    text-align: center;
+
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
 }
-.loginButton{
-    padding-bottom: 15px;
-    padding-right: 15px;
-    text-align: right;
+
+.balanceButton {
+    display: flex;
+    flex-direction: row-reverse;
 }
-.card{
+
+.graph {
     border: 1px solid hsl(0 0% 80%);
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
@@ -20,7 +27,57 @@
     max-width: 850px;
     max-height: auto;
 }
-.flexBox{
-    background-color: hsla(241, 36%, 48%, 0.664);
+
+.stocksOwned {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.spacedBuy {
+    margin-right: 150px
+}
+
+.spacedSell {
+    margin-left: 150px
+}
+
+.buyButton {
+    background-color: rgb(61, 210, 61);
+    height: 64px;
+    width: 128px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.buyButton:hover{
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+.buyButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.sellButton {
+    background-color: rgb(220, 46, 46);
+    height: 64px;
+    width: 128px;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    
+}
+
+.sellButton:hover{
+    background-color: hsl(6, 64%, 48%);
+    color: white;
+}
+
+.sellButton:active {
+    background-color: #a40909;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
