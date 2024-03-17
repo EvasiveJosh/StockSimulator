@@ -11,8 +11,8 @@ const Graph = () => {
     script.type = "text/javascript";
     script.async = true;
     script.innerHTML = JSON.stringify({
-      "width": "800",
-      "height": "610",
+      "width": "auto",
+      "height": "600",
       "symbol": "NASDAQ:AAPL",
       "interval": "D",
       "timezone": "Etc/UTC",

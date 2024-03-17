@@ -47,7 +47,7 @@
     background-color: rgb(61, 210, 61);
     height: 64px;
     width: 128px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     border-radius: 8px;
 }
 
@@ -65,7 +65,7 @@
     background-color: rgb(220, 46, 46);
     height: 64px;
     width: 128px;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     border-radius: 8px;
     
 }
