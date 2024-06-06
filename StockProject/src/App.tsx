@@ -3,6 +3,7 @@ import { LoginButton, SignUp } from "./Components/LoginButton";
 import "./App.css"
 import { Card } from "./Components/Card";
 import { StockList } from "./Components/StockList";
+import {Time} from "./Components/Time";
 function App() {
   return (
     // main page div
@@ -12,6 +13,7 @@ function App() {
 
         <div>
           <h2>Stock Simulator</h2>
+          <Time/>
         </div>
 
         <div className="balanceButton">
